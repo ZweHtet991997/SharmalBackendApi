@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35005.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0434E5A0-F3C8-4B53-9181-A90D1EFDCA20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharmalRealEstateSystem.Shared", "SharmalRealEstateSystem.Shared\SharmalRealEstateSystem.Shared.csproj", "{881C9D2D-68B7-4395-8E29-40C15B0606E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{F8DB6450-4572-4023-BB42-D461746D9B59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharmalRealEstateSystem.Api", "SharmalRealEstateSystem.Api\SharmalRealEstateSystem.Api.csproj", "{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharmalRealEstateSystem.Models", "SharmalRealEstateSystem.Models\SharmalRealEstateSystem.Models.csproj", "{6749D550-8BAA-445A-84E6-707C5F71882F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{B38CE18E-3AD1-4EFB-BF9C-FFD205B1F6FD}"
+	ProjectSection(SolutionItems) = preProject
+		Sharmal Real Estate System Api.postman_collection.json = Sharmal Real Estate System Api.postman_collection.json
+		SharmalRealEstateSystem.sql = SharmalRealEstateSystem.sql
+		..\..\..\Users\zwewaiyanhtet\Documents\MyDocuments\Sharmal_Docs\Sharmal_DataDefination.xlsx = ..\..\..\Users\zwewaiyanhtet\Documents\MyDocuments\Sharmal_Docs\Sharmal_DataDefination.xlsx
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharmalRealEstateSystem.DbService", "SharmalRealEstateSystem.DbService\SharmalRealEstateSystem.DbService.csproj", "{700C5FC4-A652-4B15-94A0-F544DE7CFB31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharmalRealEstateSystem.Mapper", "SharmalRealEstateSystem.Mapper\SharmalRealEstateSystem.Mapper.csproj", "{6D286118-E8C0-4AFB-9C6F-F0AE268BF6A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharmalRealEstateSystem.Repositories", "SharmalRealEstateSystem.Repositories\SharmalRealEstateSystem.Repositories.csproj", "{6BB6A710-A5A1-4C43-A711-728B245B165E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{881C9D2D-68B7-4395-8E29-40C15B0606E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881C9D2D-68B7-4395-8E29-40C15B0606E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881C9D2D-68B7-4395-8E29-40C15B0606E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881C9D2D-68B7-4395-8E29-40C15B0606E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6749D550-8BAA-445A-84E6-707C5F71882F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6749D550-8BAA-445A-84E6-707C5F71882F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6749D550-8BAA-445A-84E6-707C5F71882F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6749D550-8BAA-445A-84E6-707C5F71882F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700C5FC4-A652-4B15-94A0-F544DE7CFB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700C5FC4-A652-4B15-94A0-F544DE7CFB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700C5FC4-A652-4B15-94A0-F544DE7CFB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700C5FC4-A652-4B15-94A0-F544DE7CFB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D286118-E8C0-4AFB-9C6F-F0AE268BF6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D286118-E8C0-4AFB-9C6F-F0AE268BF6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D286118-E8C0-4AFB-9C6F-F0AE268BF6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D286118-E8C0-4AFB-9C6F-F0AE268BF6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB6A710-A5A1-4C43-A711-728B245B165E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB6A710-A5A1-4C43-A711-728B245B165E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB6A710-A5A1-4C43-A711-728B245B165E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB6A710-A5A1-4C43-A711-728B245B165E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{881C9D2D-68B7-4395-8E29-40C15B0606E2} = {0434E5A0-F3C8-4B53-9181-A90D1EFDCA20}
+		{6949EDAF-2EF3-4DF6-8279-76DE61DA4BF1} = {F8DB6450-4572-4023-BB42-D461746D9B59}
+		{6749D550-8BAA-445A-84E6-707C5F71882F} = {0434E5A0-F3C8-4B53-9181-A90D1EFDCA20}
+		{700C5FC4-A652-4B15-94A0-F544DE7CFB31} = {0434E5A0-F3C8-4B53-9181-A90D1EFDCA20}
+		{6D286118-E8C0-4AFB-9C6F-F0AE268BF6A1} = {0434E5A0-F3C8-4B53-9181-A90D1EFDCA20}
+		{6BB6A710-A5A1-4C43-A711-728B245B165E} = {0434E5A0-F3C8-4B53-9181-A90D1EFDCA20}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C99E625E-288F-4FC9-99A2-C6AC831C5EB3}
+	EndGlobalSection
+EndGlobal
