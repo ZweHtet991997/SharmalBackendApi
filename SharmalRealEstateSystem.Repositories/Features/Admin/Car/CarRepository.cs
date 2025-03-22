@@ -33,6 +33,8 @@ public class CarRepository : ICarRepository
             {
                 requestModel.PageNo,
                 requestModel.PageSize,
+                Location = requestModel.Location!.IsNullOrEmpty() ? null : requestModel.Location,
+                City = requestModel.City!.IsNullOrEmpty() ? null : requestModel.City,
                 Manufacturer = requestModel.Manufacturer!.IsNullOrEmpty() ? null : requestModel.Manufacturer,
                 Model = requestModel.Model!.IsNullOrEmpty() ? null : requestModel.Model,
                 EnginePower = requestModel.EnginePower!.IsNullOrEmpty() ? null : requestModel.EnginePower,
@@ -62,6 +64,8 @@ public class CarRepository : ICarRepository
                 CommonQuery.CarCountResult,
                 new
                 {
+                    Location = requestModel.Location!.IsNullOrEmpty() ? null : requestModel.Location,
+                    City = requestModel.City!.IsNullOrEmpty() ? null : requestModel.City,
                     Manufacturer = requestModel.Manufacturer!.IsNullOrEmpty() ? null : requestModel.Manufacturer,
                     Model = requestModel.Model!.IsNullOrEmpty() ? null : requestModel.Model,
                     EnginePower = requestModel.EnginePower!.IsNullOrEmpty() ? null : requestModel.EnginePower,

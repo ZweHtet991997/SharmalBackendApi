@@ -23,12 +23,12 @@ namespace SharmalRealEstateSystem.Shared.Configs
 
         public static string UATDbConnectionString()
         {
-            return $"Data Source={UATServer};Initial Catalog={UATDatabase};User Id={UATUserId};Password={UATPassword};";
+            return $"Data Source={UATServer};Initial Catalog={UATDatabase};User Id={UATUserId};Password={UATPassword};TrustServerCertificate=True";
         }
 
         public static string ProdDbConnectionString()
         {
-            return $"Data Source={Server};Initial Catalog={Database};User Id={UserId};Password={Password};";
+            return $"Data Source={Server};Initial Catalog={Database};User Id={UserId};Password={Password};TrustServerCertificate=True";
         }
     }
 }

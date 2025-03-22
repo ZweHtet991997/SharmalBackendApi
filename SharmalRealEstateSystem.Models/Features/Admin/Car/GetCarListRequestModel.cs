@@ -4,6 +4,8 @@ public class GetCarListRequestModel
 {
     public int PageNo { get; set; }
     public int PageSize { get; set; }
+    public string? Location { get; set; }
+    public string? City { get; set; }
     public string? Manufacturer { get; set; }
     public string? Model { get; set; }
     public string? EnginePower { get; set; }
